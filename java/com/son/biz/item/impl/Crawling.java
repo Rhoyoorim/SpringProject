@@ -27,7 +27,7 @@ public class Crawling {
 	
 	// chrome driver
 	public static String WEB_DRIVER_ID = "webdriver.chrome.driver";
-	public static String WEB_DRIVER_PATH = "D:\\0607SON\\webdriver\\chromedriver_win32\\chromedriver.exe";
+	public static String WEB_DRIVER_PATH = "chromedriver \\chromedriver.exe";
 
 	// 크롤링 driver 주소 및 id, url 입력 + 기본 생성자
 	public Crawling() {
@@ -39,8 +39,8 @@ public class Crawling {
 		driver = new ChromeDriver(options); // option을 담은 chromedriver 설정 
 		driver2 = new ChromeDriver(options); // option을 담은 chromedriver 설정
 
-		url = "https://www.petbox.kr/main/index.php"; // 기본 url
-		url2 = "https://www.petbox.kr"; // url에 붙일 기본 url
+		url = "크롤링 주소"; // 기본 url
+		url2 = "크롤링 주소"; // url에 붙일 기본 url
 	}
 	
 	// 크롤링 작동
