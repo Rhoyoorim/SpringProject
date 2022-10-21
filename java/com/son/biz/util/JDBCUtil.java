@@ -7,9 +7,9 @@ import java.sql.SQLException;
 
 public class JDBCUtil {
     static final String driverName="com.mysql.cj.jdbc.Driver";
-    static final String url="jdbc:mysql://localhost:3306/sondb?autoReconnect=true";
-    static final String user="root";
-    static final String passwd="1234";
+    static final String url="jdbc:mysql-url";
+    static final String user="user";
+    static final String passwd="pw";
     public static Connection connect() {
         Connection conn=null;
         try {
